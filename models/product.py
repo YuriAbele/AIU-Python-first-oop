@@ -1,8 +1,8 @@
 class Product:
-    """Represents a product with a name and price.
+    """Represents a Product with a Name and Price.
     Args:
-        name (str): The name of the product.
-        price (float): The price of the product.
+        name (str): The Name of the Product.
+        price (float): The Price of the Product.
     """
     
     def __init__(self, name: str, price: float):

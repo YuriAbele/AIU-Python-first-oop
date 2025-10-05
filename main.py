@@ -1,8 +1,12 @@
+from models.order import Order
 from models.product import Product
 
 product1 = Product(name="First Product", price=11.11)
 product2 = Product(name="Second Product", price=22.22)
 product3 = Product(name="Third Product", price=33.33)
+
+order1 = Order([product1, product2, product3])
 print(product1, product2, product3, sep="\n")
+print(order1)
 #print(product1 == product2)
 #print(product1 < product2)
